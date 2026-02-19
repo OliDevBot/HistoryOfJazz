@@ -1,0 +1,3 @@
+(Generated using github-copilot/gpt-5-mini as a staging draft. Will be reverified and possibly rewritten later with higher-quality model.)
+
+[Generated content as saved in the markdown file.]

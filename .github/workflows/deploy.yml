@@ -1,0 +1,30 @@
+name: Deploy site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          echo "No site app detected yet. This job is a placeholder to be replaced when site is ready."
+
+      - name: Deploy placeholder
+        run: |
+          echo "Deploy step skipped: no deployment configured."
+
+      - name: Notify
+        run: |
+          echo "Repository updated on main. Replace this workflow with real deploy steps (Vercel/Netlify) when ready."

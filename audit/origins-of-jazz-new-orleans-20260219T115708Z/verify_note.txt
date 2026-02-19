@@ -1,0 +1,7 @@
+Verification (Claude Opus 4.6):
+- All three sources consulted directly via web fetch before writing.
+- Historical claims cross-checked against NPS.gov (US government source) and Country Roads Magazine feature article.
+- Key facts verified: Congo Square 1817 ordinance, Plessy v. Ferguson 1896, Buddy Bolden born 1877, Storyville established 1897 and closed 1917, ODJB first recording 1917.
+- Paul Dominguez quote sourced from Alan Lomax interview (1950), referenced in Country Roads article.
+- Louis Armstrong "Gold Coast" quote referenced in Country Roads article.
+- Confidence: 0.85 — high factual alignment with sources; some general historical narrative not directly verifiable from cited sources alone but consistent with mainstream jazz scholarship.

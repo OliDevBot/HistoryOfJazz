@@ -1,0 +1,4 @@
+Model: github-copilot/claude-opus-4.6
+Generated with research: web_search + web_fetch of NPS.gov and Country Roads Magazine sources.
+Content written directly by Claude Opus 4.6 after reading source material.
+Word count: ~1400 words.

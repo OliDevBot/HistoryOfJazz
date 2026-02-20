@@ -1,0 +1,7 @@
+Verification (Claude Opus 4.6):
+- All three sources consulted directly via web fetch before writing.
+- Key facts verified: Oliver left New Orleans ~1918, Armstrong arrived Chicago 1922, Creole Jazz Band recorded 1923 (Gennett/Okeh/Paramount/Columbia), Hot Five recordings 1925-1928, "West End Blues" 1928, Austin High Gang discovered jazz via NORK records at ice cream parlor ~1922, McPartland quote verified from Chicago Reader article.
+- Isabel Wilkerson "ten thousand arriving every month" quote referenced in NEH article.
+- Lil Hardin married Armstrong 1924 — verified.
+- "Heebie Jeebies" 1926 as early scat recording — consistent with standard accounts.
+- Confidence: 0.87 — high factual alignment. Some narrative framing (e.g., "twelve astonishing seconds" for West End Blues cadenza) is interpretive but consistent with mainstream jazz scholarship.

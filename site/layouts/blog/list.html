@@ -14,4 +14,8 @@
     </li>
   {{ end }}
   </ul>
+
+  {{ if not .Pages }}
+    <p class="empty">{{ if eq .Lang "es" }}No hay publicaciones todavía.{{ else }}No posts yet.{{ end }}</p>
+  {{ end }}
 {{ end }}

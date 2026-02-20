@@ -30,13 +30,15 @@ jobs:
 
       - name: Copy posts into Hugo content
         run: |
-          # Copy published English posts into site/content/blog/
+          mkdir -p site/content/blog
+          # Copy all published posts (EN + ES) into site/content/blog/
           for f in content/published/*.md; do
             [ -f "$f" ] || continue
-            # Skip Spanish translations and .gitkeep
-            case "$f" in *.es.md|*.gitkeep) continue;; esac
+            case "$f" in *.gitkeep) continue;; esac
             cp "$f" site/content/blog/
           done
+          echo "Copied posts:"
+          ls -la site/content/blog/
 
       - name: Build
         run: hugo --minify -s site

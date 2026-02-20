@@ -8,6 +8,15 @@
           · {{ range $i, $t := . }}{{ if $i }}, {{ end }}<span class="tag">{{ $t }}</span>{{ end }}
         {{ end }}
       </p>
+      {{- with .Translations }}
+      <p class="translation-link">
+        {{ range . }}
+          {{ if eq .Lang "es" }}🇪🇸 <a href="{{ .Permalink }}">Leer en español</a>
+          {{ else }}🇬🇧 <a href="{{ .Permalink }}">Read in English</a>
+          {{ end }}
+        {{ end }}
+      </p>
+      {{- end }}
     </header>
 
     <div class="post-content">
@@ -17,7 +26,7 @@
     {{ with .Params.sources }}
     <hr>
     <section class="sources">
-      <h3>Sources</h3>
+      <h3>{{ if eq $.Lang "es" }}Fuentes{{ else }}Sources{{ end }}</h3>
       <ol>
         {{ range . }}<li><a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a></li>{{ end }}
       </ol>

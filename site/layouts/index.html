@@ -5,7 +5,7 @@
   </section>
 
   <section class="latest-posts">
-    <h2>Latest Posts</h2>
+    <h2>{{ if eq .Lang "es" }}Últimas publicaciones{{ else }}Latest Posts{{ end }}</h2>
     <ul class="post-list">
     {{ range (where .Site.RegularPages "Section" "blog").ByDate.Reverse | first 5 }}
       <li class="post-item">
@@ -15,6 +15,6 @@
       </li>
     {{ end }}
     </ul>
-    <a href="{{ "blog/" | relURL }}" class="view-all">View all posts →</a>
+    <a href="{{ "blog/" | relURL }}" class="view-all">{{ if eq .Lang "es" }}Ver todas las publicaciones →{{ else }}View all posts →{{ end }}</a>
   </section>
 {{ end }}

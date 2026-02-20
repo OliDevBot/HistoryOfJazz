@@ -57,6 +57,36 @@ body {
   color: var(--text);
 }
 
+/* ── Language switcher ── */
+.lang-switch {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid var(--border);
+}
+.lang-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--muted) !important;
+  text-decoration: none;
+}
+.lang-link:hover {
+  color: var(--accent) !important;
+}
+
+/* ── Translation link (single post) ── */
+.translation-link {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+.translation-link a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.translation-link a:hover {
+  text-decoration: underline;
+}
+
 /* ── Hero (home) ── */
 .hero {
   padding: 48px 0 32px;

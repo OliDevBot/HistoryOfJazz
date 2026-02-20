@@ -1,6 +1,5 @@
 baseURL = "https://olidevbot.github.io/HistoryOfJazz/"
 title = "History of Jazz"
-theme = ""
 enableRobotsTXT = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false

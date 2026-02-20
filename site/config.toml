@@ -1,0 +1,19 @@
+baseURL = "https://OliDevBot.github.io/HistoryOfJazz/"
+languageCode = "en-us"
+title = "History of Jazz"
+theme = ""
+
+[params]
+  author = "Oli"
+  description = "A short, well-sourced history of jazz."
+
+[outputs]
+  home = ["HTML","RSS"]
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.es]
+    languageName = "Español"
+    weight = 2

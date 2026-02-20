@@ -14,7 +14,7 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="{{ .Site.Home.RelPermalink }}" class="site-title">{{ if eq .Lang "es" }}Historia del Jazz{{ else }}History of Jazz{{ end }}</a>
+      <a href="{{ .Site.Home.RelPermalink }}" class="site-title">🎷 {{ if eq .Lang "es" }}Historia del Jazz{{ else }}History of Jazz{{ end }}</a>
       <nav>
         {{ range .Site.Menus.main }}
           <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>

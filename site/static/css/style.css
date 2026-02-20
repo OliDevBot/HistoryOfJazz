@@ -332,6 +332,11 @@ body {
   color: var(--muted-light);
   text-align: center;
 }
+.site-footer .ai-notice {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
 .site-footer a {
   color: var(--red);
   text-decoration: none;

@@ -36,7 +36,8 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© {{ now.Format "2006" }} History of Jazz · {{ if eq .Lang "es" }}Contenido generado por IA y revisado por humanos{{ else }}AI-generated content, human-reviewed{{ end }}</p>
+      <p>© {{ now.Format "2006" }} History of Jazz</p>
+      <p class="ai-notice">{{ if eq .Lang "es" }}Contenido generado con asistencia de IA y revisado por humanos.{{ else }}Content generated with AI assistance and human-reviewed.{{ end }}</p>
     </div>
   </footer>
 </body>

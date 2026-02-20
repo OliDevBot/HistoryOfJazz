@@ -1,4 +1,4 @@
-/* ── History of Jazz — jazz noir theme ── */
+/* ── History of Jazz — jazz noir theme (dark mode) ── */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
 
@@ -6,19 +6,17 @@
   --max-width: 720px;
   --serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --text: #1a1a1a;
-  --text-light: #f5f5f5;
-  --muted: #6b7280;
-  --muted-light: #9ca3af;
-  --border: #e5e7eb;
-  --border-dark: #333;
-  --red: #c41e3a;
-  --red-dark: #a01830;
-  --red-soft: rgba(196, 30, 58, 0.08);
-  --black: #111111;
-  --off-black: #1a1a1a;
-  --bg: #fafafa;
-  --white: #ffffff;
+  --bg: #111111;
+  --bg-card: #1a1a1a;
+  --bg-hover: #222222;
+  --text: #e8e8e8;
+  --text-bright: #ffffff;
+  --muted: #9ca3af;
+  --muted-dim: #6b7280;
+  --border: #2a2a2a;
+  --red: #e63946;
+  --red-dark: #c41e3a;
+  --red-soft: rgba(230, 57, 70, 0.1);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -40,22 +38,22 @@ body {
 
 /* ── Header ── */
 .site-header {
-  background: var(--black);
+  background: var(--bg);
   padding: 0;
-  border-bottom: 3px solid var(--red);
+  border-bottom: 2px solid var(--red);
 }
 .site-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 .site-title {
   font-family: var(--serif);
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--text-light);
+  color: var(--text-bright);
   text-decoration: none;
   letter-spacing: 0.01em;
 }
@@ -68,7 +66,7 @@ body {
 }
 .site-header nav a {
   margin-left: 24px;
-  color: var(--muted-light);
+  color: var(--muted);
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -78,20 +76,20 @@ body {
 }
 .site-header nav a:hover,
 .site-header nav a.active {
-  color: var(--white);
+  color: var(--text-bright);
 }
 
 /* ── Language switcher ── */
 .lang-switch {
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 1px solid var(--border-dark);
+  border-left: 1px solid var(--border);
 }
 .lang-link {
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: var(--muted-light) !important;
+  color: var(--muted) !important;
   text-decoration: none;
 }
 .lang-link:hover {
@@ -122,6 +120,7 @@ body {
   font-size: 2.4rem;
   margin-bottom: 16px;
   line-height: 1.2;
+  color: var(--text-bright);
 }
 .hero-content {
   color: var(--muted);
@@ -129,15 +128,7 @@ body {
   line-height: 1.8;
 }
 .hero-content a { color: var(--red); }
-.hero-content strong { color: var(--text); }
-.hero-content small { display: block; margin-top: 16px; }
-
-/* ── AI disclaimer ── */
-.hero-content hr {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 24px 0 16px;
-}
+.hero-content strong { color: var(--text-bright); }
 
 /* ── Post list ── */
 .latest-posts { padding: 0 0 48px; }
@@ -155,9 +146,10 @@ body {
 .post-item {
   padding: 20px 0;
   border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
 }
 .post-item:hover {
-  background: var(--red-soft);
+  background: var(--bg-hover);
   margin: 0 -12px;
   padding: 20px 12px;
   border-radius: 4px;
@@ -165,7 +157,7 @@ body {
 }
 .post-item time {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--muted-dim);
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -176,7 +168,7 @@ body {
   line-height: 1.4;
 }
 .post-item h3 a {
-  color: var(--text);
+  color: var(--text-bright);
   text-decoration: none;
 }
 .post-item h3 a:hover {
@@ -201,7 +193,7 @@ body {
 
 /* ── Empty state ── */
 .empty {
-  color: var(--muted);
+  color: var(--muted-dim);
   font-style: italic;
   padding: 24px 0;
 }
@@ -236,9 +228,10 @@ body {
   font-family: var(--serif);
   font-size: 2rem;
   line-height: 1.25;
+  color: var(--text-bright);
 }
 .post-header .meta {
-  color: var(--muted);
+  color: var(--muted-dim);
   font-size: 0.85rem;
   margin-top: 12px;
   text-transform: uppercase;
@@ -249,7 +242,7 @@ body {
   font-family: var(--serif);
   font-size: 1.4rem;
   margin: 40px 0 12px;
-  color: var(--off-black);
+  color: var(--text-bright);
   border-bottom: 2px solid var(--red-soft);
   padding-bottom: 6px;
 }
@@ -257,6 +250,7 @@ body {
   font-family: var(--serif);
   font-size: 1.15rem;
   margin: 28px 0 8px;
+  color: var(--text-bright);
 }
 .post-content p {
   margin-bottom: 18px;
@@ -280,7 +274,8 @@ body {
 
 /* ── Sources ── */
 .sources {
-  background: var(--red-soft);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   padding: 20px 24px;
   border-radius: 6px;
   margin-top: 32px;
@@ -299,7 +294,7 @@ body {
 }
 .sources li { margin-bottom: 4px; }
 .sources a {
-  color: var(--red-dark);
+  color: var(--red);
   word-break: break-all;
 }
 
@@ -322,25 +317,37 @@ body {
 
 /* ── Footer ── */
 .site-footer {
-  background: var(--black);
+  background: var(--bg);
   padding: 20px 0;
   margin-top: 48px;
-  border-top: 3px solid var(--red);
+  border-top: 2px solid var(--red);
 }
 .site-footer p {
   font-size: 0.82rem;
-  color: var(--muted-light);
+  color: var(--muted-dim);
   text-align: center;
 }
 .site-footer .ai-notice {
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--muted-dim);
   margin-top: 4px;
 }
 .site-footer a {
   color: var(--red);
   text-decoration: none;
 }
+
+/* ── Selection ── */
+::selection {
+  background: var(--red);
+  color: var(--text-bright);
+}
+
+/* ── Scrollbar (webkit) ── */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-dim); }
 
 /* ── Responsive ── */
 @media (max-width: 600px) {

@@ -1,0 +1,48 @@
+baseURL = "https://olidevbot.github.io/HistoryOfJazz/"
+title = "History of Jazz"
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+# ── Languages ──
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 1
+    [languages.en.params]
+      author = "Oli"
+      description = "An AI-generated, human-curated exploration of jazz history — from Congo Square to the present."
+    [[languages.en.menus.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menus.main]]
+      name = "Blog"
+      url = "/blog/"
+      weight = 2
+
+  [languages.es]
+    languageName = "Español"
+    languageCode = "es"
+    weight = 2
+    [languages.es.params]
+      author = "Oli"
+      description = "Una exploración de la historia del jazz generada por IA y curada por humanos — desde Congo Square hasta el presente."
+    [[languages.es.menus.main]]
+      name = "Inicio"
+      url = "/es/"
+      weight = 1
+    [[languages.es.menus.main]]
+      name = "Blog"
+      url = "/es/blog/"
+      weight = 2

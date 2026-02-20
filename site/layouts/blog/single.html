@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <article class="post">
+    <header class="post-header">
+      <h1>{{ .Title }}</h1>
+      <p class="meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.tags }}
+          · {{ range $i, $t := . }}{{ if $i }}, {{ end }}<span class="tag">{{ $t }}</span>{{ end }}
+        {{ end }}
+      </p>
+      {{- with .Translations }}
+      <p class="translation-link">
+        {{ range . }}
+          {{ if eq .Lang "es" }}🇪🇸 <a href="{{ .Permalink }}">Leer en español</a>
+          {{ else }}🇬🇧 <a href="{{ .Permalink }}">Read in English</a>
+          {{ end }}
+        {{ end }}
+      </p>
+      {{- end }}
+    </header>
+
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.sources }}
+    <hr>
+    <section class="sources">
+      <h3>{{ if eq $.Lang "es" }}Fuentes{{ else }}Sources{{ end }}</h3>
+      <ol>
+        {{ range . }}<li><a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a></li>{{ end }}
+      </ol>
+    </section>
+    {{ end }}
+
+    <nav class="post-nav">
+      {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+      {{ with .NextInSection }}<a href="{{ .RelPermalink }}" class="next">{{ .Title }} →</a>{{ end }}
+    </nav>
+  </article>
+{{ end }}

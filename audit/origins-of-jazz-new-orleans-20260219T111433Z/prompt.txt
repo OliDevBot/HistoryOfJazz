@@ -1,0 +1,1 @@
+Generate a substantial, well-referenced article (800-1500 words) about the origins of jazz in New Orleans. Include at least 2 explicit source URLs and inline citation markers [1], [2]. Provide a short verification note and a confidence score (0-1).

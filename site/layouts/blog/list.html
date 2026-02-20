@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ if .Content }}<div class="section-intro">{{ .Content }}</div>{{ end }}
+
+  <ul class="post-list">
+  {{ range .Pages.ByDate.Reverse }}
+    <li class="post-item">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p class="excerpt">{{ .Params.excerpt }}</p>
+      <div class="tags">
+        {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+      </div>
+    </li>
+  {{ end }}
+  </ul>
+
+  {{ if not .Pages }}
+    <p class="empty">{{ if eq .Lang "es" }}No hay publicaciones todavía.{{ else }}No posts yet.{{ end }}</p>
+  {{ end }}
+{{ end }}

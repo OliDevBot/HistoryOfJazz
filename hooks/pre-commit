@@ -1,0 +1,74 @@
+#!/bin/bash
+# Pre-commit hook: block secrets from being committed
+# Install: cp hooks/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+
+set -e
+
+echo "🔍 Scanning staged files for secrets..."
+
+# Patterns that should NEVER appear in committed files
+PATTERNS=(
+  'ghp_[a-zA-Z0-9]{36}'
+  'gho_[a-zA-Z0-9]{36}'
+  'ghu_[a-zA-Z0-9]{36}'
+  'github_pat_[a-zA-Z0-9_]{82}'
+  'sk-[a-zA-Z0-9]{20,}'
+  'GITHUB_PAT=[a-zA-Z0-9]'
+  'NOTION_API_KEY=[a-zA-Z0-9]'
+  'BOT_TOKEN=[0-9]'
+  'api_key\s*[:=]\s*["\x27][a-zA-Z0-9]'
+  'BEGIN (RSA|DSA|EC|OPENSSH) PRIVATE KEY'
+  'password\s*[:=]\s*["\x27][^\s]'
+)
+
+# Files that should NEVER be committed
+BLOCKED_FILES=(
+  '.env'
+  'MEMORY.md'
+  'USER.md'
+  'SOUL.md'
+  'IDENTITY.md'
+  'AGENTS.md'
+  'TOOLS.md'
+  'HEARTBEAT.md'
+  'openclaw.json'
+)
+
+STAGED=$(git diff --cached --name-only --diff-filter=ACMR)
+FAILED=0
+
+# Check for blocked filenames
+for file in $STAGED; do
+  basename=$(basename "$file")
+  for blocked in "${BLOCKED_FILES[@]}"; do
+    if [[ "$basename" == "$blocked" ]]; then
+      echo "❌ BLOCKED: '$file' is a protected file that must not be committed."
+      FAILED=1
+    fi
+  done
+done
+
+# Check for secret patterns in file contents
+for file in $STAGED; do
+  # Skip binary files
+  if file "$file" | grep -q "binary"; then
+    continue
+  fi
+
+  for pattern in "${PATTERNS[@]}"; do
+    if git diff --cached -- "$file" | grep -qE "$pattern"; then
+      echo "❌ SECRET DETECTED in '$file' matching pattern: $pattern"
+      FAILED=1
+    fi
+  done
+done
+
+if [ "$FAILED" -ne 0 ]; then
+  echo ""
+  echo "🚫 Commit blocked. Remove secrets or blocked files before committing."
+  echo "   If this is a false positive, use: git commit --no-verify"
+  exit 1
+fi
+
+echo "✅ No secrets detected."
+exit 0

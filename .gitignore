@@ -1,9 +1,18 @@
-.env
+# Dependencies & OS
 node_modules/
 .DS_Store
+Thumbs.db
 
-# OpenClaw workspace files - NEVER commit these
+# Secrets & credentials - NEVER commit
 .env
+.env.*
+*.pem
+*.key
+*.p12
+id_rsa*
+id_ed25519*
+
+# OpenClaw workspace files - NEVER commit
 .openclaw/
 AGENTS.md
 HEARTBEAT.md
@@ -12,8 +21,16 @@ MEMORY.md
 SOUL.md
 TOOLS.md
 USER.md
+WORKFLOW_AUTO.md
+BOOTSTRAP.md
 memory/
 skills/
 photo-booth*/
 *.temp.json
 Oli Bot
+openclaw.json
+
+# Hugo build output
+site/public/
+site/resources/
+.hugo_build.lock

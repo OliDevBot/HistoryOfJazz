@@ -78,10 +78,3 @@ The Chicago chapter of jazz history illustrates something essential about how cu
 King Oliver brought the New Orleans collective style to the South Side. Armstrong blew it open and created the jazz solo as a vehicle for individual expression. The Austin High Gang absorbed it and reflected it back through a different social lens. And the recording studios captured all of it, creating a permanent archive that would teach and inspire musicians for a century to come.
 
 The story of jazz in 1920s Chicago is, at its heart, a story about what happens when a displaced community builds something new — and how the music they make becomes a mirror for the freedom they sought.
-
----
-
-**Sources:**
-1. National Endowment for the Humanities — When Jazz Moved to Chicago: https://www.neh.gov/article/when-jazz-moved-chicago
-2. Chicago Reader — The Austin High Gang Helped Birth Chicago Jazz in the 1920s: https://chicagoreader.com/music/the-secret-history-of-chicago-music/the-austin-high-gang-helped-birth-chicago-jazz-in-the-1920s/
-3. Encyclopædia Britannica — Jazz: https://www.britannica.com/art/jazz

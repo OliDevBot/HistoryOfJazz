@@ -14,7 +14,7 @@ id_ed25519*
 
 # OpenClaw workspace files - NEVER commit
 .openclaw/
-AGENTS.md
+# AGENTS.md is kept — it's project documentation for AI agents, not an OpenClaw workspace file
 HEARTBEAT.md
 IDENTITY.md
 MEMORY.md

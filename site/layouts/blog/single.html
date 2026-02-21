@@ -28,7 +28,11 @@
     <section class="sources">
       <h3>{{ if eq $.Lang "es" }}Fuentes{{ else }}Sources{{ end }}</h3>
       <ol>
-        {{ range . }}<li><a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a></li>{{ end }}
+        {{ range . }}
+          {{ $url := . }}
+          {{ $host := replaceRE `https?://([^/]+)(/.*)?` `$1` $url }}
+          <li>{{ $host }} — <a href="{{ $url }}" target="_blank" rel="noopener">{{ $url }}</a></li>
+        {{ end }}
       </ol>
     </section>
     {{ end }}

@@ -84,10 +84,3 @@ Los orígenes del jazz en Nueva Orleans no son solo una historia musical. Son la
 Cada vez que un músico toma un instrumento y improvisa sobre un cambio de acordes, está bebiendo de una tradición que comenzó con la percusión africana en Congo Square, pasó por salones criollos y garitos de Uptown, sobrevivió a Jim Crow y Storyville, y viajó río arriba para cambiar el mundo.
 
 Nueva Orleans no solo dio a luz al jazz. Dio a luz a la idea de que la música puede ser una conversación viva —espontánea, colaborativa y renovable sin fin.
-
----
-
-**Fuentes:**
-1. National Park Service — Jazz Origins in New Orleans: https://www.nps.gov/jazz/learn/historyculture/history_early.htm
-2. Country Roads Magazine — The History of Jazz in New Orleans: https://countryroadsmagazine.com/art-and-culture/music/how-new-orleans-became-the-cradle/
-3. Encyclopædia Britannica — Jazz: https://www.britannica.com/art/jazz

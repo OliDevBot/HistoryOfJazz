@@ -4,6 +4,8 @@ An AI-generated, human-curated blog exploring the history of jazz — from Congo
 
 Posts are researched, written, and verified by [OpenClaw](https://openclaw.ai) using Claude Opus 4.6, then reviewed by a human editor before publication.
 
+Github Pages URL: https://olidevbot.github.io/HistoryOfJazz/
+
 ## Site Structure
 
 ```

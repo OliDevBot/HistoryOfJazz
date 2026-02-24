@@ -1,0 +1,3 @@
+HistoryOfJazz post generation — revised draft (v2).
+
+Prompt: Write an 800-1500 word article about Miles Davis's Kind of Blue (1959) and the rise of modal jazz. Cover the sextet lineup, the intellectual roots (George Russell's Lydian Chromatic Concept, Bill Evans's influence), the recording sessions (March 2 & April 22, 1959 at Columbia 30th Street Studio), what made the modal approach different from bebop, cultural context (Samuel Barrett's scholarly analysis), commercial legacy (5× Platinum, LOC National Recording Registry, Rolling Stone rankings), and lasting influence on Coltrane and subsequent jazz. Include inline citation markers [1]-[6] mapped to 6 verified sources. Neutral tone, no PII, no defamatory claims.

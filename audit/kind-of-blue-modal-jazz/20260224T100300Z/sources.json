@@ -1,0 +1,8 @@
+[
+  {"id": 1, "url": "https://en.wikipedia.org/wiki/Kind_of_Blue", "title": "Kind of Blue — Wikipedia", "fetched": true, "verified": true},
+  {"id": 2, "url": "https://www.britannica.com/topic/Kind-of-Blue", "title": "Kind of Blue — Encyclopaedia Britannica", "fetched": true, "verified": true},
+  {"id": 3, "url": "https://www.npr.org/2011/01/04/10862796/miles-davis-kind-of-blue", "title": "Miles Davis: 'Kind of Blue' — NPR", "fetched": true, "verified": true},
+  {"id": 4, "url": "https://daily.jstor.org/why-miles-daviss-kind-of-blue-is-so-beloved/", "title": "Why Miles Davis's 'Kind of Blue' Is So Beloved — JSTOR Daily (references Barrett 2006)", "fetched": true, "verified": true},
+  {"id": 5, "url": "https://jazzfuel.com/kind-of-blue-miles-davis/", "title": "Kind of Blue — Miles Davis's Modal Jazz Masterpiece — JazzFuel", "fetched": true, "verified": true},
+  {"id": 6, "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/KindOfBlue.pdf", "title": "Kind of Blue — Library of Congress National Recording Registry (2002)", "fetched": true, "verified": false, "note": "PDF binary — could not extract text, but LOC registry inclusion confirmed via Wikipedia"}
+]

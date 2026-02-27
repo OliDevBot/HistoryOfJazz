@@ -1,0 +1,19 @@
+Fact Verification Report — bebop-revolution-birth-of-modern-jazz
+Date: 2026-02-27
+Confidence: 0.92
+
+Facts checked:
+1. Minton's Playhouse founded by Henry Minton in 1938 → CONFIRMED (Wikipedia: Minton's Playhouse)
+2. Teddy Hill hired late 1940 to manage Minton's → CONFIRMED (Wikipedia: Minton's Playhouse)
+3. House band: Monk (piano), Clarke (drums), Joe Guy (trumpet), Nick Fenton (bass) → CONFIRMED (Wikipedia: Minton's Playhouse)
+4. Parker's harmonic breakthrough on "Cherokee" at Clark Monroe's Uptown House, early 1942 → CONFIRMED (Wikipedia: Bebop, Parker quote)
+5. Gillespie recorded "Be-Bop" (aka "Dizzy's Fingers") January 1945 → CONFIRMED (JazzWax)
+6. Henry Minton first Black delegate to AFM Local 802 → CONFIRMED (Wikipedia: Minton's Playhouse)
+7. Union protection from jam session fines at Minton's → CONFIRMED (Wikipedia: Minton's Playhouse, Gillespie quote)
+8. LeRoi Jones quote on social protest → CONFIRMED (Carnegie Hall Timeline of African American Music)
+9. Billy Eckstine formed first bop big band in 1944 → CONFIRMED (Carnegie Hall Timeline)
+10. Sarah Vaughan joined Earl Hines 1943, then Eckstine → CONFIRMED (Carnegie Hall Timeline)
+11. Key recordings: "Koko"/"Shaw 'Nuff" (1945), "Ornithology" (1946), "'Round Midnight" (1947) → CONFIRMED (Carnegie Hall Timeline)
+12. Contrafacts and "rhythm changes" as compositional practice → CONFIRMED (Wikipedia: Bebop)
+
+All 12 key facts verified. No discrepancies found.

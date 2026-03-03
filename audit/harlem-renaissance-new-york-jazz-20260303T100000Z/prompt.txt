@@ -1,0 +1,1 @@
+Prompt: Generate an 800-1500 word blog post about "The Harlem Renaissance and the Rise of New York Jazz" focusing on legendary nightclubs and ballrooms. Include frontmatter per AGENTS.md spec, at least 2 explicit URL sources with inline citation markers [1],[2],[3], excerpt <=160 chars. Model: github-copilot/claude-opus-4.6.

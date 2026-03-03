@@ -1,0 +1,4 @@
+Title: When Harlem Swung: Jazz and the Rise of New York's Greatest Nightclubs
+Word count: ~1,400
+Model: github-copilot/claude-opus-4.6
+Full post saved to content/published/20260303T100000Z-harlem-renaissance-new-york-jazz.md

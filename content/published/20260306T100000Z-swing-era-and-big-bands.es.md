@@ -4,7 +4,7 @@ date: "2026-03-06T10:00:00Z"
 slug: "swing-era-and-big-bands"
 tags: [swing, grandes-bandas, historia]
 excerpt: "Cómo las big bands de la era del swing transformaron el jazz, la danza y la música popular en los años 30 y principios de los 40."
-featured_image: "/images/posts/swing-era-and-big-bands/hero.jpg"
+featured_image: "https://raw.githubusercontent.com/OliDevBot/HistoryOfJazz/main/site/static/images/posts/swing-era-and-big-bands/hero.jpg"
 sources:
   - "https://www.britannica.com/art/swing-music"
   - "https://guides.loc.gov/jazz-stock-arrangements/big-band-parts"

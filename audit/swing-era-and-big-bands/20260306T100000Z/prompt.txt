@@ -1,0 +1,3 @@
+Prompt: Generate a HistoryOfJazz blog post about the Swing Era and big bands. Requirements: ~800-1500 words, frontmatter with date 2026-03-06T10:00:00Z, slug swing-era-and-big-bands, sources as flat URL strings, include inline citation markers [1][2][3], excerpt <=160 chars. Write in engaging narrative tone, include 'Why it matters' conclusion. Ensure no PII.
+
+Research sources used: Britannica (swing music), Library of Congress (big-band parts guide), AcousticMusic.org (big bands overview).

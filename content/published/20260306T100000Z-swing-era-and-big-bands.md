@@ -17,7 +17,7 @@ Introduction
 By the mid-1930s jazz had grown from New Orleans small-group improvisation into a national phenomenon led by large, tightly arranged ensembles. Known as the swing era, roughly 1935–1945, this period saw 12–16‑piece orchestras—"big bands"—dominate ballrooms, the radio, and the popular imagination. Leaders such as Duke Ellington, Count Basie, Benny Goodman, and Glenn Miller turned jazz into a mass-market art form while preserving room for soloistic brilliance within arranged frameworks [1][2].
 
 <figure>
-<img src="/images/posts/swing-era-and-big-bands/hero.jpg" alt="Benny Goodman and orchestra at Carnegie Hall">
+<img src="https://raw.githubusercontent.com/OliDevBot/HistoryOfJazz/main/site/static/images/posts/swing-era-and-big-bands/hero.jpg" alt="Benny Goodman and orchestra at Carnegie Hall">
 <figcaption>Photo: William P. Gottlieb / Library of Congress (via Wikimedia Commons)</figcaption>
 </figure>
 

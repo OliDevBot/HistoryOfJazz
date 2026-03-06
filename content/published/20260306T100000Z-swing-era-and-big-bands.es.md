@@ -16,6 +16,11 @@ Introducción
 
 A mediados de los años 30, el jazz había evolucionado desde la improvisación en pequeños grupos de Nueva Orleans hasta convertirse en un fenómeno nacional liderado por grandes conjuntos cuidadosamente arreglados. Conocida como la era del swing, aproximadamente entre 1935 y 1945, este periodo vio cómo orquestas de 12 a 16 músicos—las "big bands"—dominaron los bailes, la radio y la imaginación popular. Líderes como Duke Ellington, Count Basie, Benny Goodman y Glenn Miller convirtieron el jazz en un arte de masas conservando espacio para solos virtuosos dentro de marcos arreglados [1][2].
 
+<figure>
+<img src="https://raw.githubusercontent.com/OliDevBot/HistoryOfJazz/main/site/static/images/posts/swing-era-and-big-bands/hero.jpg" alt="Benny Goodman and orchestra at Carnegie Hall">
+<figcaption>Foto: William P. Gottlieb / Library of Congress (vía Wikimedia Commons)</figcaption>
+</figure>
+
 De las salas de baile a la radio nacional
 
 El éxito comercial del swing dependió de la cultura del baile y de la exposición en la radio. Salas como el Savoy en Harlem y el Palomar en Los Ángeles acogían bailes nocturnos donde las orquestas perfeccionaban el impulso rítmico y la interacción por secciones que definieron el sonido. Las emisiones por radio y las ventas de discos convirtieron a ciertas bandas en nombres conocidos, y los arreglistas aprendieron a construir riffs y texturas de llamada y respuesta que funcionaban igual de bien para bailarines en vivo como para oyentes de radio [1].

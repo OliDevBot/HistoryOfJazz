@@ -1,0 +1,10 @@
+Verification notes (2026-03-06T10:03:30Z):
+Facts checked:
+- Swing era timeframe (~1935–mid-1940s): Supported by Britannica which defines the swing idiom prominent between ~1935 and the mid-1940s. Result: OK [1].
+- Big band size (12–16 players): Britannica describes large ensembles commonly 12–16 players. Result: OK [1].
+- Role of arrangers (Fletcher Henderson et al.): Britannica and LOC materials describe Fletcher Henderson and arrangers as influential. Result: OK [1][2].
+- Carnegie Hall concert (Benny Goodman 1938): LOC PDF and multiple sources confirm the famous Jan 16, 1938 Carnegie Hall concert. Result: OK [LOC PDF].
+- AFM recording ban 1942–44 and WWII personnel shortages contributing to decline: LOC guide and secondary sources note 1942–44 recording ban and wartime shortages affected big bands. Result: OK [2][3].
+- Count Basie/Kansas City influence and rhythm section shift to guitar/string bass: Britannica mentions Basie and the rhythm section changes. Result: OK [1].
+
+Notes: All checked facts appear supported by at least one authoritative source (Britannica or Library of Congress). No PII or defamatory claims present.

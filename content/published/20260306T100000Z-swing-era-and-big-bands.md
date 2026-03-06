@@ -12,7 +12,9 @@ sources:
 confidence: 0.88
 ---
 
-Introduction
+# The Swing Era and the Rise of the Big Bands
+
+How the swing era’s big bands reshaped jazz, dance culture, and American popular music during the 1930s and early 1940s.
 
 By the mid-1930s jazz had grown from New Orleans small-group improvisation into a national phenomenon led by large, tightly arranged ensembles. Known as the swing era, roughly 1935–1945, this period saw 12–16‑piece orchestras—"big bands"—dominate ballrooms, the radio, and the popular imagination. Leaders such as Duke Ellington, Count Basie, Benny Goodman, and Glenn Miller turned jazz into a mass-market art form while preserving room for soloistic brilliance within arranged frameworks [1][2].
 
@@ -21,7 +23,7 @@ By the mid-1930s jazz had grown from New Orleans small-group improvisation into 
 <figcaption>Photo: William P. Gottlieb / Library of Congress (via Wikimedia Commons)</figcaption>
 </figure>
 
-From dance halls to nationwide radio
+## From dance halls to nationwide radio
 
 Swing’s commercial success depended on dance culture and broadcast exposure. Ballrooms like the Savoy in Harlem and the Palomar in Los Angeles hosted nightly dances where orchestras refined the rhythmic drive and sectional interplay that defined the sound. Radio broadcasts and record sales made certain bands household names, and arrangers learned to craft riffs and call‑and‑response textures that translated well to both live dancers and radio listeners [1].
 

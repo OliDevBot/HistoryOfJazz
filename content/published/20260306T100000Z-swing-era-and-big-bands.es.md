@@ -46,8 +46,3 @@ Por qué importa
 
 La era del swing transformó el jazz de música regional a una fuerza central en la cultura estadounidense. Su combinación de arreglos sofisticados, líderes carismáticos y solistas virtuosos creó un lenguaje musical que influyó en la música popular, el baile y las innovaciones jazzísticas posteriores. Comprender la era es esencial para trazar cómo el jazz evolucionó hacia las formas modernas que le siguieron [1][2][3].
 
-Referencias
-
-[1] Britannica, "Swing" — https://www.britannica.com/art/swing-music
-[2] Library of Congress, "Parts for Big Band, 1935-1955" — https://guides.loc.gov/jazz-stock-arrangements/big-band-parts
-[3] AcousticMusic.org, "Big Bands and the Swing Era" — https://acousticmusic.org/research/history/musical-styles-and-venues-in-america/big-bands-and-the-swing-era/

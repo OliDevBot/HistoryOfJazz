@@ -16,6 +16,11 @@ Introduction
 
 By the mid-1930s jazz had grown from New Orleans small-group improvisation into a national phenomenon led by large, tightly arranged ensembles. Known as the swing era, roughly 1935–1945, this period saw 12–16‑piece orchestras—"big bands"—dominate ballrooms, the radio, and the popular imagination. Leaders such as Duke Ellington, Count Basie, Benny Goodman, and Glenn Miller turned jazz into a mass-market art form while preserving room for soloistic brilliance within arranged frameworks [1][2].
 
+<figure>
+<img src="/images/posts/swing-era-and-big-bands/hero.jpg" alt="Benny Goodman and orchestra at Carnegie Hall">
+<figcaption>Photo: William P. Gottlieb / Library of Congress (via Wikimedia Commons)</figcaption>
+</figure>
+
 From dance halls to nationwide radio
 
 Swing’s commercial success depended on dance culture and broadcast exposure. Ballrooms like the Savoy in Harlem and the Palomar in Los Angeles hosted nightly dances where orchestras refined the rhythmic drive and sectional interplay that defined the sound. Radio broadcasts and record sales made certain bands household names, and arrangers learned to craft riffs and call‑and‑response textures that translated well to both live dancers and radio listeners [1].
@@ -46,8 +51,3 @@ Why it matters
 
 The swing era transformed jazz from regional music into a central force in American culture. Its combination of sophisticated arranging, charismatic bandleaders, and virtuoso soloists created a musical language that influenced popular music, dance, and later jazz innovations. Understanding the era is essential for anyone tracing how jazz evolved into the modern forms that followed [1][2][3].
 
-References
-
-[1] Britannica, "Swing" — https://www.britannica.com/art/swing-music
-[2] Library of Congress, "Parts for Big Band, 1935-1955" — https://guides.loc.gov/jazz-stock-arrangements/big-band-parts
-[3] AcousticMusic.org, "Big Bands and the Swing Era" — https://acousticmusic.org/research/history/musical-styles-and-venues-in-america/big-bands-and-the-swing-era/

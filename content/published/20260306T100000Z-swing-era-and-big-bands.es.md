@@ -47,7 +47,7 @@ Raza, trabajo y el fin del dominio de las big bands
 
 Las estructuras comerciales del swing pusieron de manifiesto desigualdades raciales persistentes. Muchos innovadores afroamericanos—Ellington, Basie, Fletcher Henderson y otros—influyeron decisivamente en el sonido, mientras que líderes blancos obtuvieron mayor exposición y recompensa financiera. La economía de las giras, la huelga de la American Federation of Musicians (1942–44), la escasez de personal por la Segunda Guerra Mundial y los cambios de gustos contribuyeron al declive de la big band como formato dominante hacia finales de los 40 [2][3].
 
-Por qué importa
+## Por qué importa
 
 La era del swing transformó el jazz de música regional a una fuerza central en la cultura estadounidense. Su combinación de arreglos sofisticados, líderes carismáticos y solistas virtuosos creó un lenguaje musical que influyó en la música popular, el baile y las innovaciones jazzísticas posteriores. Comprender la era es esencial para trazar cómo el jazz evolucionó hacia las formas modernas que le siguieron [1][2][3].
 

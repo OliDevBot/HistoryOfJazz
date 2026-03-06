@@ -47,7 +47,7 @@ Race, labor, and the end of the big-band dominance
 
 Swing’s commercial structures exposed persistent racial inequalities. Many African American innovators—Ellington, Basie, Fletcher Henderson, and others—influenced the sound while white bandleaders often reaped greater mainstream exposure and financial reward. The economics of touring, the 1942–44 American Federation of Musicians recording ban, World War II personnel shortages, and changing tastes all contributed to the decline of the big band as the dominant commercial format by the late 1940s [2][3].
 
-Why it matters
+## Why It Matters
 
 The swing era transformed jazz from regional music into a central force in American culture. Its combination of sophisticated arranging, charismatic bandleaders, and virtuoso soloists created a musical language that influenced popular music, dance, and later jazz innovations. Understanding the era is essential for anyone tracing how jazz evolved into the modern forms that followed [1][2][3].
 
